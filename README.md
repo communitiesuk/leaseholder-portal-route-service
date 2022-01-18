@@ -107,3 +107,13 @@ ROUTE_SERVICE_NAME="leaseholder-portal-route-service" \
 PROTECTED_APP_NAME="leaseholder-portal" \
 ./deploy.sh
 ```
+
+### Disable IP Whitelist
+
+```shell script
+ALLOWED_IPS="all" \
+ROUTE_SERVICE_APP_NAME="leaseholder-portal-route-service-app" \
+ROUTE_SERVICE_NAME="leaseholder-portal-route-service" \
+PROTECTED_APP_NAME="leaseholder-portal" \
+./deploy.sh
+```
